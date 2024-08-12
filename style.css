@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+:root{
+    --cor-titulo: #5DBABB;
+    --cor-subTitulo: #CEE171;
+    --cor-textoCima: #868d9e;
+    --cor-quadro01: #2BB3B1;
+    --cor-quadro02: #4ABEBD;
+    --cor-botao: #BFDF32;
+    --cor-fundo: #E6EFF6;
+}
+
+body{
+    font-family: "Karla", sans-serif;
+    background-color: var(--cor-fundo);
+}
+
+.titulo01{
+    color: var(--cor-titulo);
+    font-weight: 700;
+}
+
+.subtitulo{
+    color: var(--cor-subTitulo);
+    font-weight: 700;
+}
+
+.textocima{
+    color: var(--cor-textoCima);
+}
+
+.componente{
+    background-color: white;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.227);
+    width: 45%;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+.baixo{
+    display: flex;
+    width: 100%;
+    
+}
+
+.cima{
+    padding: 30px;
+   
+}
+
+.esquerda{
+    width: 50%;
+    padding: 30px;
+    background-color: var(--cor-quadro01);
+    border-bottom-left-radius: 10px;
+}
+
+.direita{
+    width: 50%;
+    background-color: var(--cor-quadro02);
+    padding: 30px;
+    border-bottom-right-radius: 10px;
+}
+
+.branco{
+    color: white;
+    font-weight: 400;
+}
+
+strong{
+    font-size: 32px;
+    color: white;
+}
+
+.preco{
+    color: #525661;
+}
+
+#botao{
+    width: 235px;
+    height: 50px;
+    background-color: var(--cor-botao);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.115);
+}
+
+ul{
+    list-style-type: none;
+    color: white;
+}
